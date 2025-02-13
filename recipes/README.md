@@ -1,3 +1,14 @@
+# Nots on using vLLM serving
+First launch the vLLM servers with launch_vllm, where you can set the number of vLLM servers, ports, and their corresponing device.
+```shell
+bash launch_vllm.sh
+```
+
+And then, use the following commands from the original HuggingFace repo to run the search, where you can also specify a CUDA device for the PRM, e.g.,
+```shell
+
+```
+
 # Recipes
 
 We provide YAML configs to run the three test time compute variants detailed in the [blog post](https://huggingface.co/spaces/HuggingFaceH4/blogpost-scaling-test-time-compute):
