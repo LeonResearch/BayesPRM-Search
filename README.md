@@ -42,7 +42,7 @@ You can now check out the `scripts` and `recipes` directories for instructions o
 
 The [`recipes` README](recipes/README.md) includes launch commands and config files in order to replicate our results.
 
-# Nots on using vLLM serving
+# Notes on using vLLM serving
 First launch the vLLM servers with launch_vllm, where you can set the number of vLLM servers, ports, and their corresponing device.
 ```shell
 bash launch_vllm.sh
