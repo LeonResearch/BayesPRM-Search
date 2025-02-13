@@ -50,5 +50,8 @@ bash launch_vllm.sh
 
 And then, use the following commands from the original HuggingFace repo to run the search, where you can also specify a CUDA device for the PRM, e.g.,
 ```shell
-
+export CONFIG=recipes/Llama-3.2-1B-Instruct/best_of_n.yaml
+CUDA_VISIBLE_DEVICES=0 python scripts/test_time_compute.py $CONFIG
 ```
+
+Note that, by default the ports start at 8000, (e.g. 8000, 8001, 8002, ..., if we have servers). And you need to edit the `src/sal/config.py` to modify the number of servers to be used (i.e. match with the number of launched servers) when running the search.
