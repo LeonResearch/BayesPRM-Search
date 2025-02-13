@@ -1,0 +1,10 @@
+--2025-02-10 13:20:58--  https://www.google.com/
+Connecting to 172.17.0.1:3128... connected.
+Proxy request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: '/dev/null'
+
+     0K .......... ..........                                  3.71M=0.005s
+
+2025-02-10 13:20:59 (3.71 MB/s) - '/dev/null' saved [20520]
+
